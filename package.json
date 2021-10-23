@@ -1,0 +1,29 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GERASM1/OpenTec_HTML.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GERASM1/OpenTec_HTML/issues"
+  },
+  "homepage": "https://github.com/GERASM1/OpenTec_HTML#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "scripts": 
+  {
+        "build": "eleventy",
+        "clean": "rm -rf _site",
+        "dev": "eleventy --serve --port 8000"
+  }
+}
