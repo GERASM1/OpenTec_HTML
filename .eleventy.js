@@ -4,5 +4,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('assets/img');
     eleventyConfig.addPassthroughCopy('assets/js');
     // Return configuration object.
-    return {};
+    return {
+        passthroughFileCopy : true
+    };
 };
