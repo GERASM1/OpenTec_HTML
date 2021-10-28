@@ -6528,6 +6528,10 @@ html.menu-opened body {
     letter-spacing: 0.02em;
 }
 .pro-avatar {
+	border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+  	border-bottom-right-radius: 50% 50%;
+  	border-bottom-left-radius: 50% 50%;
 	color: #E1396F;
 	background-color: rgba(30, 136, 229, 0.2);
 	border: 3px solid #E1396F;
